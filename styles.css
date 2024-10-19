@@ -3,9 +3,10 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden; /* Allow vertical scrolling */
+    overflow-y: auto; /* Allow vertical scrolling */
     background-color: #000000; /* Black background */
     color: #00ff00; /* Green text */
+    font-family: 'Courier New', Courier, monospace; /* Revert to earlier font */
 }
 
 #particles-js {
@@ -23,11 +24,37 @@ body, html {
 
 .left-pane, .right-pane {
     width: 45%;
+    position: relative; /* For positioning the background image */
+}
+
+.background-image {
+    display: block;
+    margin: 1rem auto; /* Center the image */
+    width: 50%; /* Adjust the width to make it smaller */
+    height: auto;
+    opacity: 0.9; /* Adjust the opacity if needed */
+    animation: fadeInImage 2s ease-in-out 3s forwards; /* Image entrance animation */
+    visibility: hidden; /* Initially hidden */
+}
+
+@keyframes fadeInImage {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Start slightly below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* End at original position */
+        visibility: visible; /* Make visible */
+    }
 }
 
 .intro {
     text-align: center;
-    font-family: 'Roboto Mono', monospace; /* Use Google Font */
+    font-family: 'Courier New', Courier, monospace; /* Use existing font */
+    padding: 2rem;
+    width: auto; /* Adjust width based on content */
+    max-width: 100%; /* Ensure it doesn't overflow */
 }
 
 .typewriter {
@@ -35,7 +62,9 @@ body, html {
     border-right: .15em solid #00ff00; /* Cursor effect */
     white-space: nowrap; /* Prevents text from wrapping */
     margin: 0 auto; /* Center the text */
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    font-size: 1.5rem; /* Adjust font size */
+    animation: typing 3s steps(40, end), blink-caret .75s step-end 3s; /* Stop blinking after typing */
+    animation-fill-mode: forwards; /* Ensure the cursor disappears after typing */
 }
 
 @keyframes typing {
@@ -49,21 +78,27 @@ body, html {
 }
 
 .highlight {
-    font-size: 2.5rem;
+    font-size: 2.5rem; /* Adjust font size */
     font-weight: 700;
     margin: 1rem 0;
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out 6s forwards; /* Delay to start after previous animations */
+    font-family: 'Courier New', Courier, monospace; /* Ensure font consistency */
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.7); /* Add subtle text shadow */
+    opacity: 0; /* Initially hidden */
 }
 
 .description {
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Adjust font size */
     margin: 1rem 0;
-    animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 2s ease-in-out 8s forwards; /* Delay to start after previous animations */
+    font-family: 'Courier New', Courier, monospace; /* Ensure font consistency */
+    text-shadow: 1px 1px 2px rgba(0, 255, 0, 0.5); /* Add subtle text shadow */
+    opacity: 0; /* Initially hidden */
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from { opacity: 0; transform: translateY(20px); } /* Start slightly below */
+    to { opacity: 1; transform: translateY(0); } /* End at original position */
 }
 
 .hover-section {
@@ -77,6 +112,21 @@ body, html {
 .hover-section:hover {
     background-color: #00ff00;
     color: #000000;
+}
+
+.education-item, .work-item {
+    margin-bottom: 1.5rem;
+}
+
+.education-item h4, .work-item h4 {
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.education-item p, .work-item p {
+    margin: 0.2rem 0;
+    font-size: 1rem; /* Adjust font size */
 }
 
 body {
@@ -100,16 +150,29 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 1rem;
+    perspective: 1000px; /* Add perspective for 3D effect */
 }
 
 nav ul li a {
     color: #00ff00; /* Green text */
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace; /* Use existing font */
+    padding: 0.5rem 1rem;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    display: inline-block;
+    transform: translateZ(0); /* Initial position for 3D effect */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Add shadow for depth */
+}
+
+nav ul li a:hover {
+    transform: translateZ(20px); /* Move forward for 3D effect on hover */
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.7); /* Enhance shadow on hover */
 }
 
 form {

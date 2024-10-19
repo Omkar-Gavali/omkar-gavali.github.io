@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Include particles.js via CDN -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- Include Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="particles-js"></div>
@@ -24,17 +22,43 @@
     </header>
     <section id="home" class="home-section">
         <div class="left-pane">
-            <h1 class="typewriter">Hi, welcome to my portfolio. I'm [Your Name], a Data Scientist.</h1>
+            <div class="intro">
+                <p class="typewriter">Hi, welcome to my Portfolio</p>
+                <img src="images/home.svg" alt="Background Image" class="background-image">
+                <h1 class="highlight">I’m Omkar</h1>
+                <p class="description">A physicist turned Data Scientist passionate about software development, cloud computing, and exploring MLOps and machine learning. Let’s build something innovative!</p>
+            </div>
         </div>
         <div class="right-pane">
             <h2>About Me</h2>
             <div class="hover-section">
                 <h3>Education</h3>
-                <p>Details about your educational background.</p>
+                <div class="education-item">
+                    <h4>M.Sc. Professional IT Business and Digitalization</h4>
+                    <p>Hochschule für Technik und Wirtschaft Berlin</p>
+                </div>
+                <div class="education-item">
+                    <h4>B.Sc. Physics</h4>
+                    <p>Savitribai Phule Pune University</p>
+                </div>
             </div>
             <div class="hover-section">
                 <h3>Work Experience</h3>
-                <p>Details about your work experience.</p>
+                <div class="work-item">
+                    <h4>ML Research Assistant</h4>
+                    <p>Fraunhofer FOKUS</p>
+                    <p>Implemented RAG system using LLMs and LlamaIndex.</p>
+                </div>
+                <div class="work-item">
+                    <h4>Artificial Intelligence Researcher (Internship)</h4>
+                    <p>Brose</p>
+                    <p>Integrated Azure OpenAI solutions and improved anomaly detection.</p>
+                </div>
+                <div class="work-item">
+                    <h4>Digitization and Data Analysis using Power BI</h4>
+                    <p>HPS Home Power Solutions AG</p>
+                    <p>Developed dashboards and reports using Power BI.</p>
+                </div>
             </div>
         </div>
     </section>
