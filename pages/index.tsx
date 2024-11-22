@@ -24,7 +24,7 @@ export default function Home({ title, description, projects, posts }: HomeProps)
           <div className="container" data-aos="fade-up">
             <div className="t-center">
               <h1>Omkar Gavali</h1>
-              <p>Front-end Dev</p>
+              <p>Data Scientist</p>
               <Logo />
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function Home({ title, description, projects, posts }: HomeProps)
         <div className="container" data-aos="fade-right">
           <div className="cols cols-lg">
             <div className="col">
-              <h2>I'm Rémy, I'm a Web Lover based in Brussels and I specialise in Front-end Development.</h2>
+              <h2>I'm Omkar, I'm a Data Scientist based in Berlin and I specialise in MLOps.</h2>
               <p>
                 Ever since my young years, I have always enjoyed building things. I started developing my passion for{' '}
                 <strong>creation</strong> with Lego, continued with Minecraft and ultimately discovered{' '}
