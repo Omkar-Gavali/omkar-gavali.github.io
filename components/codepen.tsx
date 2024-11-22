@@ -20,7 +20,7 @@ export default function Codepen({ className, pen, title }: CodepenProps) {
           </a>
           by
           <a href="https://codepen.io/beumsk" target="_blank" rel="noopener noreferrer">
-            Rémy Beumier
+            Omkar Gavali
           </a>
         </iframe>
       </div>

@@ -31,7 +31,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <>
-      <Layout title={`${title} | Blog | Rémy Beumier`} description={intro} itemtype="Article" {...post}>
+      <Layout title={`${title} | Blog | Omkar Gavali`} description={intro} itemtype="Article" {...post}>
         <div className="container narrow post-shape">
           <div data-aos="fade-left">
             <article>

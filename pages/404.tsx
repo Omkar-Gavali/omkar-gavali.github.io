@@ -66,7 +66,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      title: '404 - Page Not Found | Rémy Beumier',
+      title: '404 - Page Not Found | Omkar Gavali',
       pro: pro,
       perso: perso,
       posts: posts,

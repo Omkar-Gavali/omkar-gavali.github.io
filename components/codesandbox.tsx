@@ -17,7 +17,7 @@ export default function Codesandbox({ className, sandbox, title }: CodesandboxPr
           sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
         >
           <a href={'https://codesandbox.io/s/' + sandbox} target="_blank" rel="noopener noreferrer">
-            See the Sandbox by Rémy Beumier
+            See the Sandbox by Omkar Gavali
           </a>
         </iframe>
       </div>

@@ -85,7 +85,7 @@ export async function getStaticProps() {
   const projects = require('@data/projects');
   return {
     props: {
-      title: 'Projects | Rémy Beumier',
+      title: 'Projects | Omkar Gavali',
       description: 'My personal and professional projects developed with HTML, CSS, JS, React, Angular and many more.',
       url: 'https://remybeumier.be/projects',
       projects: projects,

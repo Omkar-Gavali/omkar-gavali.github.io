@@ -35,28 +35,28 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:locale" content="en_GB" key="og:locale" />
         <meta property="og:type" content="website" key="og:type" />
 
-        <title key="title">Rémy Beumier | Front-end Developer</title>
+        <title key="title">Omkar Gavali | Front-end Developer</title>
         <meta
           name="description"
-          content="Rémy Beumier's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me."
+          content="Omkar Gavali's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me."
           key="description"
         />
-        <meta name="author" content="Rémy Beumier" key="author" />
+        <meta name="author" content="Omkar Gavali" key="author" />
 
-        <meta property="og:title" content="Rémy Beumier | Front-end Developer" key="og:title" />
+        <meta property="og:title" content="Omkar Gavali | Front-end Developer" key="og:title" />
         <meta
           property="og:description"
-          content="Rémy Beumier's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me."
+          content="Omkar Gavali's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me."
           key="og:description"
         />
         <meta property="og:url" content="https://remybeumier.be" key="og:url" />
         <meta property="og:image" content="https://remybeumier.be/images/rb.jpg" key="og:image" />
 
         <meta property="twitter:card" content="summary_large_image" key="twitter:card" />
-        <meta property="twitter:title" content="Rémy Beumier | Front-end Developer" key="twitter:title" />
+        <meta property="twitter:title" content="Omkar Gavali | Front-end Developer" key="twitter:title" />
         <meta
           property="twitter:description"
-          content="Rémy Beumier's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me."
+          content="Omkar Gavali's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me."
           key="twitter:description"
         />
         <meta property="twitter:url" content="https://remybeumier.be" key="twitter:url" />

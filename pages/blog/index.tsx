@@ -66,7 +66,7 @@ export default function Blog({ title, description, url }: BlogProps) {
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Blog | Rémy Beumier',
+      title: 'Blog | Omkar Gavali',
       description: 'My blog posts covering the web in general, especially the front-end development.',
       url: 'https://remybeumier.be/blog',
     },

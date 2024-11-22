@@ -17,7 +17,7 @@
     "screen": "node ./generate-projects-screens.js https://remybeumier.be/Memory memory.jpg",
     "optimize": "node ./optimize-image.js"
   },
-  "author": "Rémy Beumier",
+  "author": "Omkar Gavali",
   "license": "ISC",
   "dependencies": {
     "@mdx-js/loader": "2.1.5",

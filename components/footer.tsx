@@ -43,7 +43,7 @@ export default function Footer() {
         <p className="contact__copy">
           &copy; {new Date().getFullYear()} |{' '}
           <span itemProp="author" itemScope itemType="http://schema.org/Person">
-            <span itemProp="name">Rémy Beumier</span>
+            <span itemProp="name">Omkar Gavali</span>
           </span>
         </p>
       </div>

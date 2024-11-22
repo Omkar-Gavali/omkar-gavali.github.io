@@ -25,7 +25,7 @@ export default function Resume({ title, description, url }: ResumeProps) {
 
       <article className="resume">
         <section className="resume__name">
-          <h1>Rémy Beumier</h1>
+          <h1>Omkar Gavali</h1>
           <p className="subtitle">Front-end Developer</p>
         </section>
 
@@ -318,8 +318,8 @@ export default function Resume({ title, description, url }: ResumeProps) {
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Resume | Rémy Beumier',
-      description: "Rémy Beumier's resume as a Front-end Developer",
+      title: 'Resume | Omkar Gavali',
+      description: "Omkar Gavali's resume as a Front-end Developer",
       url: 'https://remybeumier.be/resume-remy-beumier',
     },
   };

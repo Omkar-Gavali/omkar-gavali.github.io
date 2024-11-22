@@ -19,7 +19,7 @@ export default function DynamicProject({ project, relatedLinks, img, url }: Dyna
   const isPro = project.type === 'pro';
 
   return (
-    <Layout title={`${project.title} | Projects | Rémy Beumier`} description={project.intro} img={img} url={url}>
+    <Layout title={`${project.title} | Projects | Omkar Gavali`} description={project.intro} img={img} url={url}>
       <div className="container project-shape">
         <div data-aos="fade-left">
           <h1>{project.title}</h1>
