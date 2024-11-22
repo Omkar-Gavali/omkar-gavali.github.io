@@ -1,0 +1,107 @@
+@media screen and (min-width: 992px) {
+  @include moving-shapes(blog-shape, 2rem, 8rem, 2.5rem, 53s, 100deg, -20rem, 1rem);
+  @include moving-shapes(post-shape, 3rem, 10rem, 2.5rem, 53s, -100deg, -1rem, 20rem);
+}
+
+.blog__categories .btn {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+
+  &:not(:last-of-type) {
+    margin-right: 0.5rem;
+  }
+}
+
+.post__categories a {
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:not(:last-of-type) {
+    margin-right: 0.5rem;
+  }
+}
+
+.post__date {
+  display: block;
+  text-align: right;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.post__content {
+  h1 {
+    animation: none;
+    color: inherit;
+    font-weight: normal;
+    letter-spacing: 0;
+    display: block;
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+  }
+
+  ul,
+  ol {
+    margin-bottom: 1rem;
+  }
+
+  img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  pre {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: var(--bg2);
+    overflow-x: auto;
+  }
+
+  code {
+    background: var(--bg2);
+    padding: 0.125rem 0.25rem;
+  }
+
+  blockquote {
+    margin: 1rem auto;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-left: solid 0.5rem var(--bg3);
+    font-style: italic;
+
+    cite {
+      display: block;
+      margin-top: 0.5rem;
+
+      &::before {
+        content: '— ';
+      }
+    }
+  }
+
+  /* Prism overrides for dark theme */
+  :not(pre)>code[class*='language-'],
+  pre[class*='language-'] {
+    background: var(--bg2);
+  }
+
+  code[class*='language-'],
+  pre[class*='language-'] {
+    text-shadow: none;
+    color: var(--text);
+    margin: 1.25rem auto;
+  }
+
+  .code-iframe-wrapper {
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+}

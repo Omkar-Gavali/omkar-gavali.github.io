@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 1rem;
+  min-width: 320px;
+  color-scheme: light dark;
+  scroll-behavior: smooth;
+}
+
+#__next main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  background-color: var(--bg);
+  color: var(--text2);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--primary);
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: 0.25rem;
+  display: inline-block;
+  margin: 2rem 0;
+  animation: title-shadow 0.4s ease-in-out forwards;
+}
+
+@keyframes title-shadow {
+  0% {
+    text-shadow: none;
+  }
+
+  12% {
+    text-shadow: 0px 0 var(--primary-lightest), 1px 0 var(--primary-lightest);
+  }
+
+  25% {
+    text-shadow: 0px 0 var(--primary-lightest), 1px 0 var(--primary-lightest), 2px 1px var(--primary-lightest);
+  }
+
+  37% {
+    text-shadow: 0px 0 var(--primary-lightest), 1px 0 var(--primary-lightest), 2px 1px var(--primary-lightest),
+      3px 1px var(--primary-lightest);
+  }
+
+  50% {
+    text-shadow: 0px 0 var(--primary-lightest), 1px 0 var(--primary-lightest), 2px 1px var(--primary-lightest),
+      3px 1px var(--primary-lightest), 4px 2px var(--primary-lightest);
+  }
+
+  62% {
+    text-shadow: 0px 0 var(--primary-lightest), 1px 0 var(--primary-lightest), 2px 1px var(--primary-lightest),
+      3px 1px var(--primary-lightest), 4px 2px var(--primary-lightest), 5px 2px var(--primary-lightest);
+  }
+
+  75% {
+    text-shadow: 0px 0 var(--primary-lightest), 1px 0 var(--primary-lightest), 2px 1px var(--primary-lightest),
+      3px 1px var(--primary-lightest), 4px 2px var(--primary-lightest), 5px 2px var(--primary-lightest),
+      6px 3px var(--primary-lightest);
+  }
+
+  87% {
+    text-shadow: 0px 0 var(--primary-lightest), 1px 0 var(--primary-lightest), 2px 1px var(--primary-lightest),
+      3px 1px var(--primary-lightest), 4px 2px var(--primary-lightest), 5px 2px var(--primary-lightest),
+      6px 3px var(--primary-lightest), 7px 3px var(--primary-lightest);
+  }
+
+  100% {
+    text-shadow: 0px 0 var(--primary-lightest), 1px 0 var(--primary-lightest), 2px 1px var(--primary-lightest),
+      3px 1px var(--primary-lightest), 4px 2px var(--primary-lightest), 5px 2px var(--primary-lightest),
+      6px 3px var(--primary-lightest), 7px 3px var(--primary-lightest), 8px 4px var(--primary-lightest);
+  }
+}
+
+h2 {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  margin-bottom: 0.75em;
+}
+
+a {
+  line-height: 1.4;
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    color: var(--primary);
+    transition: all var(--transition);
+  }
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+strong {
+  color: var(--primary);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 1.25rem;
+
+  li {
+    line-height: 1.6;
+  }
+}
+
+ul {
+  list-style-type: square;
+
+  &.nodisc {
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+button {
+  line-height: 1.4;
+  color: inherit;
+  border: solid 1px var(--text);
+  background: none;
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+
+.btn,
+button {
+  color: var(--text2);
+  background-color: var(--bg);
+  border: solid 1px;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  top: -0.125rem;
+  left: -0.125rem;
+  box-shadow: 4px 4px var(--primary-light);
+  cursor: pointer;
+  transition: all var(--transition);
+
+  @media screen and (min-width: 768px) {
+    top: 0;
+    left: 0;
+    box-shadow: none;
+  }
+
+  &.active {
+    color: var(--bg);
+    background-color: var(--text2);
+    border-color: var(--text2);
+  }
+
+  &:not(.active):hover,
+  &:not(.active):focus {
+    color: var(--primary);
+    top: -0.125rem;
+    left: -0.125rem;
+    box-shadow: 4px 4px var(--primary-light);
+  }
+}
