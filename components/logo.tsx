@@ -6,7 +6,8 @@ export default function Logo() {
     xmlns="http://www.w3.org/2000/svg" 
     xmlnsXlink="http://www.w3.org/1999/xlink" 
     x="0px" y="0px"
-	  width="100%" viewBox="0 0 463 430" enable-background="new 0 0 463 430" xmlSpace="preserve">
+	  width="32px"  // Adjust the width as needed
+    height="32px" viewBox="0 0 463 430" enable-background="new 0 0 463 430" xmlSpace="preserve">
 <path fill="#040313" opacity="1.000000" stroke="none" 
 	d="
 M1.000000,148.000000 
