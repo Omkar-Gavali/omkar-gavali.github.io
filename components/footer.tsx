@@ -3,22 +3,22 @@ import { SiCodesandbox } from 'react-icons/si';
 
 const footerLinks = [
   {
-    link: 'https://github.com/beumsk',
+    link: 'https://omkar-gavali.github.io/',
     title: 'Github',
     icon: FaGithub,
   },
   {
-    link: 'https://codepen.io/beumsk/',
+    link: 'https://omkar-gavali.github.io/',
     title: 'Codepen',
     icon: FaCodepen,
   },
   {
-    link: 'https://codesandbox.io/u/beumsk',
+    link: 'https://www.linkedin.com/in/omkar-gavali-9048551a6/',
     title: 'Codesandbox',
     icon: SiCodesandbox,
   },
   {
-    link: 'https://www.linkedin.com/in/remybeumier/',
+    link: 'https://www.linkedin.com/in/omkar-gavali-9048551a6/',
     title: 'LinkedIn',
     icon: FaLinkedin,
   },

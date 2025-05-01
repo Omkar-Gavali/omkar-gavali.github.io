@@ -67,8 +67,8 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Blog | Omkar Gavali',
-      description: 'My blog posts covering the web in general, especially the front-end development.',
-      url: 'https://remybeumier.be/blog',
+      description: 'STill WOrk in Progress.',
+      url: 'https://github.com/Omkar-Gavali',
     },
   };
 }

@@ -38,7 +38,7 @@ export default function MyApp({ Component, pageProps }) {
         <title key="title">Omkar Gavali | Front-end Developer</title>
         <meta
           name="description"
-          content="Omkar Gavali's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me."
+          content="Omkar Gavali's portfolio website as a AI Developer Based in Berlin. Discover a bit about myself, my projects, my posts and how to contact me."
           key="description"
         />
         <meta name="author" content="Omkar Gavali" key="author" />
@@ -46,20 +46,20 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="Omkar Gavali | Front-end Developer" key="og:title" />
         <meta
           property="og:description"
-          content="Omkar Gavali's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me."
+          content="Omkar Gavali's portfolio website as a AI Developer Based in Berlin. Discover a bit about myself, my projects, my posts and how to contact me."
           key="og:description"
         />
-        <meta property="og:url" content="https://remybeumier.be" key="og:url" />
+        <meta property="og:url" content="https://omkar-gavali.github.io" key="og:url" />
         <meta property="og:image" content="https://remybeumier.be/images/rb.jpg" key="og:image" />
 
         <meta property="twitter:card" content="summary_large_image" key="twitter:card" />
-        <meta property="twitter:title" content="Omkar Gavali | Front-end Developer" key="twitter:title" />
+        <meta property="twitter:title" content="Omkar Gavali | AI Developer" key="twitter:title" />
         <meta
           property="twitter:description"
-          content="Omkar Gavali's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me."
+          content="Omkar Gavali's portfolio website as a AI Developer Based in Berlin. Discover a bit about myself, my projects, my posts and how to contact me."
           key="twitter:description"
         />
-        <meta property="twitter:url" content="https://remybeumier.be" key="twitter:url" />
+        <meta property="twitter:url" content="https://omkar-gavali.github.io" key="twitter:url" />
         <meta property="twitter:image" content="https://remybeumier.be/images/rb.jpg" key="twitter:image" />
 
         <meta name="theme-color" content="#009688" key="theme-color" />

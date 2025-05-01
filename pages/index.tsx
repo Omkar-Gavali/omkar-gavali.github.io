@@ -134,9 +134,9 @@ export async function getStaticProps() {
 
   return {
     props: {
-      title: 'Omkar Gavali | Front-end Developer',
+      title: 'Omkar Gavali | AI Developer',
       description:
-        "Omkar Gavali's portfolio website as a Front-end Developer in Brussels. Discover a bit about myself, my projects, my posts and how to contact me.",
+        "Omkar Gavali's portfolio website as a AI Developer Based in Berlin. Discover a bit about myself, my projects, my posts and how to contact me.",
       projects: projects,
       posts: posts,
     },
