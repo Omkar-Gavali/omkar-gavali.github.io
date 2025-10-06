@@ -1,4 +1,4 @@
-# Omkar Gavali's portfolio site
+# Omkar Gavali's portfolio site.
 
 Website built with React and Nextjs.
 
