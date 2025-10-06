@@ -14,15 +14,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clean previous deployment files
-        run: |
-          rm -rf github-pages-deploy-action-temp-deployment-folder
-          git worktree prune
-
       - name: Checkout
         uses: actions/checkout@v3
         with:
           persist-credentials: false
+
+      - name: Clean previous deployment files
+        run: |
+          rm -rf github-pages-deploy-action-temp-deployment-folder
+          git worktree prune
 
       - name: Setup Node
         uses: actions/setup-node@v3
