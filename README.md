@@ -2,7 +2,7 @@
 
 Website built with React and Nextjs.
 
-Sass for styling.
+Sass for styling..
 
 React icons for icons.
 
