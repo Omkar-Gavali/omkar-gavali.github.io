@@ -36,9 +36,9 @@ export default function Home({ title, description, projects, posts }: HomeProps)
         <div className="container" data-aos="fade-right">
           <div className="cols cols-lg">
             <div className="col">
-              <h2>I'm Omkar, I'm a Research Softawre Engineer in the Visual Analytics for Images from Colonial Contexts (VaBiKo) project at University of Marburg. a PhD candidate at Leibniz Universität Hannover. I'm supervised by Prof. Dr. Ralph Ewerth. My research interests are in Multimodal information retreival. </h2>
+              <h2>I'm Omkar, I'm a Research Software Engineer and PhD candidate at the University of Marburg, working at the intersection of machine learning and multimodal information retrieval. </h2>
               <p>
-               My research focuses on multimodal information retrieval, where I explore ways to combine text and image understanding to enhance how we access and interpret complex datasets.
+               Currently, I'm part of the Visual Analytics for Images from Colonial Contexts (VaBiKo) project at the University of Marburg, where I develop research software and conduct studies on multimodal information retrieval. I'm pursuing my PhD under the supervision of Prof. Dr. Ralph Ewerth, focusing on methods that integrate visual and textual understanding to enhance information access and discovery.
                I hold a Master's degree in IT Business & Digitalization from HTW Berlin, where my thesis, “Information Retrieval on Large Corpus of Data Using LLM: RAG Approach,” investigated the integration of large language models for efficient data retrieval.
                Outside my core research, I'm passionate about developing intelligent systems that make information more accessible and interpretable through machine learning and data visualization.
               </p>
