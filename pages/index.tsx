@@ -24,7 +24,7 @@ export default function Home({ title, description, projects, posts }: HomeProps)
           <div className="container" data-aos="fade-up">
             <div className="t-center">
               <h1>Omkar Gavali</h1>
-              <p>Data Scientist</p>
+              <p>Machine Learning Researcher</p>
               <Logo />
             </div>
           </div>
@@ -36,17 +36,13 @@ export default function Home({ title, description, projects, posts }: HomeProps)
         <div className="container" data-aos="fade-right">
           <div className="cols cols-lg">
             <div className="col">
-              <h2>I'm Omkar, I'm a Data Scientist based in Berlin and I specialise in MLOps.</h2>
+              <h2>I'm Omkar, I'm a Research Softawre Engineer in the (Visual Analytics for Images from Colonial Contexts)VaBiKo project at University of Marburg. a PhD candidate at Leibniz Universität Hannover. I'm supervised by Prof. Dr. Ralph Ewerth. My research interests are in Multimodal information retreival. </h2>
               <p>
-                Ever since my young years, I have always enjoyed building things. I started developing my passion for{' '}
-                <strong>creation</strong> with Lego, continued with Minecraft and ultimately discovered{' '}
-                <strong>Web development</strong>.
+               My research focuses on multimodal information retrieval, where I explore ways to combine text and image understanding to enhance how we access and interpret complex datasets.
+               I hold a Master's degree in IT Business & Digitalization from HTW Berlin, where my thesis, “Information Retrieval on Large Corpus of Data Using LLM: RAG Approach,” investigated the integration of large language models for efficient data retrieval.
+               Outside my core research, I'm passionate about developing intelligent systems that make information more accessible and interpretable through machine learning and data visualization.
               </p>
-              <p>
-                It was a relief to find out what I really wanted to do for a living. I took full advantage of that
-                motivation to start a long, difficult, but passionate journey of self-learning{' '}
-                <strong>front-end</strong> technologies.
-              </p>
+              
               <p>
                 I began coding everyday for a living and as a hobby with <strong>HTML</strong>, <strong>CSS</strong> and{' '}
                 <strong>JavaScript</strong>. I could improve my skills step by step by working as a team player, using{' '}
@@ -134,7 +130,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      title: 'Omkar Gavali | AI Developer',
+      title: 'Omkar Gavali | ML Researcher',
       description:
         "Omkar Gavali's portfolio website as a AI Developer Based in Berlin. Discover a bit about myself, my projects, my posts and how to contact me.",
       projects: projects,
