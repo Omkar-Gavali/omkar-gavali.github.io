@@ -33,6 +33,10 @@ export default function Blog({ title, description, url }: BlogProps) {
         <h1>Blog</h1>
 
         <p className="ch-80 ml-0 mb-8">
+          Coming soon.
+        </p>
+
+        {/* <p className="ch-80 ml-0 mb-8">
           I write blog articles I wish I could have come across while building and enhancing this website. They aim to
           cover topics like React and Next.js, but are not limited to those.
         </p>
@@ -57,7 +61,7 @@ export default function Blog({ title, description, url }: BlogProps) {
 
         <div data-aos="fade-up">
           <Grid data={cat} className="mt-6 mb-20" />
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

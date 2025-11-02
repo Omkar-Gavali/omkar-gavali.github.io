@@ -38,29 +38,27 @@ export default function Home({ title, description, projects, posts }: HomeProps)
             <div className="col">
               <h2>I'm Omkar, I'm a Research Software Engineer and PhD candidate at the University of Marburg, working at the intersection of machine learning and multimodal information retrieval. </h2>
               <p>
-               Currently, I'm part of the Visual Analytics for Images from Colonial Contexts (VaBiKo) project at the University of Marburg, where I develop research software and conduct studies on multimodal information retrieval. I'm pursuing my PhD under the supervision of Prof. Dr. Ralph Ewerth, focusing on methods that integrate visual and textual understanding to enhance information access and discovery.
-               I hold a Master's degree in IT Business & Digitalization from HTW Berlin, where my thesis, “Information Retrieval on Large Corpus of Data Using LLM: RAG Approach,” investigated the integration of large language models for efficient data retrieval.
-               Outside my core research, I'm passionate about developing intelligent systems that make information more accessible and interpretable through machine learning and data visualization.
+                Currently, I'm part of the <strong>Visual Analytics for Images from Colonial Contexts (<em>VaBiKo</em>)</strong> project at the <strong>University of Marburg</strong>, where I develop <em>research software</em> and conduct studies on <strong>multimodal information retrieval</strong>. I'm pursuing my <strong>PhD</strong> under the supervision of <strong>Prof. Dr. Ralph Ewerth</strong>, focusing on methods that integrate <strong>visual</strong> and <strong>textual understanding</strong> to enhance <em>information access</em> and <em>discovery</em>.
               </p>
-              
+
               <p>
-                I began coding everyday for a living and as a hobby with <strong>HTML</strong>, <strong>CSS</strong> and{' '}
-                <strong>JavaScript</strong>. I could improve my skills step by step by working as a team player, using{' '}
-                <strong>Git</strong>, <strong>Agile</strong> methodologies, <strong>NPM</strong> and{' '}
-                <strong>Figma</strong>, among others.
+                I hold a <strong>Master’s degree</strong> in <strong>IT Business & Digitalization</strong> from <strong>HTW Berlin</strong>, where my thesis, <em>“Information Retrieval on Large Corpus of Data Using LLM: RAG Approach”</em>, investigated the integration of <strong>large language models (LLMs)</strong> for <em>efficient data retrieval</em>.
               </p>
+
               <p className="mb-5">
-                <strong>React</strong> is now an essential part of my daily coding routine, combined with{' '}
-                <strong>Redux</strong>, <strong>Ant Design</strong>, <strong>Sass</strong>, <strong>CSS-in-JS</strong>{' '}
-                and many more.
+                Outside my core research, I'm passionate about developing <strong>intelligent systems</strong> that make information more <em>accessible</em> and <em>interpretable</em> through <strong>machine learning</strong> and <strong>data visualization</strong>.
               </p>
-              <Link href="/resume-remy-beumier">
+
+              
+              
+              {/* <Link href="/resume-remy-beumier"> */}
+              <Link href="/CV_Omkar.pdf">
                 <a className="btn mb-4 mr-4" target="_blank">
                   Check out my resume
                   <AiFillCaretRight className="ml-1" />
                 </a>
               </Link>
-              <a className="btn mb-4" href="remy-beumier-resume.pdf" target="_blank" download>
+              <a className="btn mb-4" href="CV_Omkar.pdf" target="_blank" download>
                 Download my resume
                 <MdFileDownload className="ml-1" />
               </a>
@@ -92,8 +90,8 @@ export default function Home({ title, description, projects, posts }: HomeProps)
       <section id="projects" className="pattern">
         <div className="container" data-aos="fade-left">
           <h2>Projects</h2>
-          <p>I build projects as a living and as a hobby. Here is a list of my favorites.</p>
-          <Grid data={projects.filter((x) => x.homepage).slice(0, 3)} className="mt-10 mb-10" />
+            <p>Projects under construction — assembling cool stuff & bribing the bugs with snacks. Check back soon!</p>
+          {/* <Grid data={projects.filter((x) => x.homepage).slice(0, 3)} className="mt-10 mb-10" />
           <div className="btn-wrapper-right">
             <Link href="/projects">
               <a className="btn">
@@ -101,15 +99,15 @@ export default function Home({ title, description, projects, posts }: HomeProps)
                 <AiFillCaretRight className="ml-1" />
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
       <section id="blog" className="">
         <div className="container" data-aos="fade-right">
           <h2>Blog</h2>
-          <p>I write some stuff about coding and the web in general. Here are the latest posts.</p>
-          <Grid data={posts.slice(0, 3)} className="mt-10 mb-10" />
+          <p>I write some stuff about coding and the web in general. Updates coming soon!!.</p>
+          {/* <Grid data={posts.slice(0, 3)} className="mt-10 mb-10" />
           <div className="btn-wrapper-right">
             <Link href="/blog">
               <a className="btn">
@@ -117,7 +115,7 @@ export default function Home({ title, description, projects, posts }: HomeProps)
                 <AiFillCaretRight className="ml-1" />
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </Layout>

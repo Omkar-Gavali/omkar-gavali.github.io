@@ -34,6 +34,10 @@ export default function Projects({ title, description, url, projects }: Projects
         <h1>Projects</h1>
 
         <p className="ch-80 ml-0 mb-8">
+          This section is currently under construction. Please check back later for updates.
+        </p>
+
+        {/* <p className="ch-80 ml-0 mb-8">
           This project list is a collection of work I have been able to build over the years. You can find here the
           codes I am most proud of, whether they are professional or personal.
         </p>
@@ -75,7 +79,7 @@ export default function Projects({ title, description, url, projects }: Projects
               className="mt-5 mb-20"
             />
           )}
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
@@ -87,7 +91,7 @@ export async function getStaticProps() {
     props: {
       title: 'Projects | Omkar Gavali',
       description: 'My personal and professional projects developed with HTML, CSS, JS, React, Angular and many more.',
-      url: 'https://remybeumier.be/projects',
+      url: 'https://omkar-gavali.github.io/projects',
       projects: projects,
     },
   };

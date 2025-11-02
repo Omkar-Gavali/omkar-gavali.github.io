@@ -39,12 +39,12 @@ export default function Resume({ title, description, url }: ResumeProps) {
         <section className="resume__contact">
           <p>
             <a href="mailto:" target="_blank" rel="noreferrer">
-              your-email@example.com
+              your-omkargavali810@gmail.com
             </a>
           </p>
           <p>
             <a href="" target="_blank" rel="noopener noreferrer">
-              linkedin.com/in/your-profile
+              https://de.linkedin.com/in/omkar-gavali-9048551a6
             </a>
           </p>
           <p>
